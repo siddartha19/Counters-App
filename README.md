@@ -1,6 +1,6 @@
 # Counters-App
 
-This project was build with ReactJs.
+This project was build with ReactJs. The project is about the Counters where you can increment, decrement the counters. This was took inspiration from React Tutorials for beginners by [Mosh](https://www.youtube.com/watch?v=Ke90Tje7VS0&t=6298s).  
 
 
 ## How to run the Project
