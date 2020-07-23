@@ -1,10 +1,12 @@
 # Counters-App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was build with ReactJs.
 
-## Available Scripts
+### you can see the output : https://siddartha19.github.io/Counters-App/
 
-In the project directory, you can run:
+## How to run the Project
+
+After cloning the project directory, you can run:
 
 ### `npm start`
 
