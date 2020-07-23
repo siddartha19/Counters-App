@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Counters-App/static/css/main.5f361e03.chunk.css",
+    "main.js": "/Counters-App/static/js/main.4beb8389.chunk.js",
+    "main.js.map": "/Counters-App/static/js/main.4beb8389.chunk.js.map",
+    "runtime-main.js": "/Counters-App/static/js/runtime-main.5b346c3f.js",
+    "runtime-main.js.map": "/Counters-App/static/js/runtime-main.5b346c3f.js.map",
+    "static/css/2.f65acde2.chunk.css": "/Counters-App/static/css/2.f65acde2.chunk.css",
+    "static/js/2.5ae3bdd0.chunk.js": "/Counters-App/static/js/2.5ae3bdd0.chunk.js",
+    "static/js/2.5ae3bdd0.chunk.js.map": "/Counters-App/static/js/2.5ae3bdd0.chunk.js.map",
+    "index.html": "/Counters-App/index.html",
+    "precache-manifest.45ef7959ae94603d601f656217dfbc21.js": "/Counters-App/precache-manifest.45ef7959ae94603d601f656217dfbc21.js",
+    "service-worker.js": "/Counters-App/service-worker.js",
+    "static/css/2.f65acde2.chunk.css.map": "/Counters-App/static/css/2.f65acde2.chunk.css.map",
+    "static/css/main.5f361e03.chunk.css.map": "/Counters-App/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.5ae3bdd0.chunk.js.LICENSE.txt": "/Counters-App/static/js/2.5ae3bdd0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b346c3f.js",
+    "static/css/2.f65acde2.chunk.css",
+    "static/js/2.5ae3bdd0.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.4beb8389.chunk.js"
+  ]
+}
