@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import Counters from "./components/counters";
 import NavBar from "./components/navbar";
+import axios from "axios";
 
 class App extends Component {
   state = {
@@ -11,7 +12,20 @@ class App extends Component {
       { id: 3, value: 3 },
       { id: 4, value: 4 },
     ],
+    data: {},
   };
+
+  componentDidMount() {
+    axios
+      .get(
+        "http://137.117.35.22:8000/survey_manage/view_survey/?access_key=66a394d28f17442a8ac2842a97b9e2d7&survey_id=S-000101"
+      )
+      .then((res) => {
+        const data = res.data.data;
+        this.setState({ data: data });
+        // console.log(data);
+      });
+  }
 
   render() {
     return (
@@ -27,6 +41,11 @@ class App extends Component {
             onIncrement={this.handleIncrement}
             onDecrement={this.handleDecrement}
           />
+          <ul>
+            {Object.keys(this.state.data).map((obj) => (
+              <li>{obj}</li>
+            ))}
+          </ul>
         </main>
       </React.Fragment>
     );
